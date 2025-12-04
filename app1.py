@@ -7,9 +7,9 @@ import pickle
 # ----------------------
 # Load Model & Dropdown Data
 # ----------------------
-pipe = pickle.load(open(r"C:\Users\aksha\Desktop\New folder (3)\ml-project-main\final_project\model2.pkl", "rb"))
-locations = pickle.load(open(r"C:\Users\aksha\Desktop\New folder (3)\ml-project-main\final_project\locations.pkl", "rb"))
-area_types = pickle.load(open(r"C:\Users\aksha\Desktop\New folder (3)\ml-project-main\final_project\area_type.pkl", "rb"))
+pipe = pickle.load(open("model2.pkl", "rb"))
+locations = pickle.load(open("locations.pkl", "rb"))
+area_types = pickle.load(open("area_type.pkl", "rb"))
 
 # ----------------------
 # Streamlit App
